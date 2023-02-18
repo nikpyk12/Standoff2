@@ -4,3 +4,27 @@ body {
 .logo {
     width: 200px;
 }
+.info {
+    font-size: x-large;
+    color: #fdf740;
+    font-weight: bold;
+}
+header {
+    display: flex;
+}
+.menu-item {
+    margin: auto 20px auto 20px;
+}
+.button {
+    text-decoration: none;
+    background-color: #fdf740;
+    padding: .7em 1.4em;
+    color: #595717;
+    border-radius: 5px;
+}
+.button:active {
+   background-color: #4d4908;
+}
+.button:hover {
+    background-color: #faf69b;
+}
