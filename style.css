@@ -33,10 +33,10 @@ header {
 
 .container {
     display: grid;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 320px 320px;
     grid-gap: 15px;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 
 .card {
@@ -61,14 +61,15 @@ header {
     border-radius: 50%;
     border: 5px solid #272133;
     margin-top: 20px;
-    box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+    box-shadow: 0 10px 50px rgb(253, 247, 64);
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
     font-size: 1.2em;
     margin-top: 10px;
-    width: 320px;
+    width: 290px;
+    margin-left: auto;
 }
