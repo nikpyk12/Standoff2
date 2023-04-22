@@ -1,5 +1,8 @@
 body {
-    background-image: url("images/background.jpg");
+    background-image: url("images/translucent-image.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .logo {
     width: 200px;
@@ -33,7 +36,7 @@ header {
 
 .container {
     display: grid;
-    grid-template-columns: 320px 320px;
+    grid-template-columns: 320px 320px 320px 320px;
     grid-gap: 15px;
     justify-content: start;
     align-items: start;
@@ -72,4 +75,17 @@ header {
     margin-top: 10px;
     width: 290px;
     margin-left: auto;
+}
+.rec-item img {
+    display: block;
+    width: 390px;
+}
+.rec-item {
+    display: flex;
+    margin: 10px auto;
+}
+.description {
+    display: flex;
+    padding: 10px 0 20px 20px;
+    font-size: x-large;
 }
